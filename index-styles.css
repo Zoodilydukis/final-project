@@ -7,7 +7,7 @@ body, h1, p {
 html {
      background-image: url(Website\ Sample.jpg);
     background-repeat: no-repeat;
-    background-size: 1920px;
+    background-size: 1580px;
 }
 
 .nav {
@@ -23,18 +23,18 @@ html {
     font-family: "poppins", sans-serif;
 font-weight: 600;
 font-style: normal;
+font-size: small;
 background-color: rgb(101, 13, 28);
 color: white;
 text-decoration: none;
 display: inline-block;
-padding: 12px 20px;
+padding: 6px 10px;
 border-radius: 10px 10px 10px 10px;
 }
 
 
 .hero-image {
-    width: auto;
-    height: auto;
+    width: 600px;
     padding: 0 40px 0 40px;
 }
 
@@ -42,8 +42,22 @@ h1 {
     font-family: "custard", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
+    font-size: 30px;
     color: white;
     padding: 0 0 0 80px
 }
 
+.cta {
+  font-family: "custard", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+    display: inline-block;
+  padding: 20px 40px 20px 40px;
+  margin: 80px;
+background-color: rgb(101, 13, 28);
+padding: white;
+color: white;
+  text-decoration: none;
+}
