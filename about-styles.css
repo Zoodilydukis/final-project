@@ -1,0 +1,25 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    justify-content: end;
+    padding: 40px;
+}
+
+.nav-link {
+    font-family: "poppins", sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: small;
+background-color:yellowgreen;
+color: white;
+text-decoration: none;
+display: inline-block;
+padding: 6px 10px;
+border-radius: 10px 10px 10px 10px;
+}

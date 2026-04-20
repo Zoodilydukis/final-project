@@ -1,7 +1,6 @@
 body, h1, p {
     margin: 0;
     padding: 0;
-    
 }
 
 html {
@@ -16,7 +15,6 @@ html {
     gap: 40px;
     justify-content: end;
     padding: 40px;
-    
 }
 
 .nav-link {
