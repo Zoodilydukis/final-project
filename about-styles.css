@@ -1,3 +1,4 @@
+
 body, h1, p {
     margin: 0;
     padding: 0;
@@ -11,6 +12,11 @@ body, h1, p {
     padding: 40px;
 }
 
+background-image {
+    (https://unsplash.com/photos/a-pile-of-coffee-beans-F-ESGb26Pp4)
+}
+
+
 .nav-link {
     font-family: "poppins", sans-serif;
 font-weight: 600;
@@ -23,3 +29,4 @@ display: inline-block;
 padding: 6px 10px;
 border-radius: 10px 10px 10px 10px;
 }
+
