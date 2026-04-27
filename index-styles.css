@@ -3,8 +3,12 @@ body, h1, p {
     padding: 0;
 }
 
+a {
+    color: white;
+}
+
 html {
-     background-image: url(Website\ Sample.jpg);
+     background-image: url(Website\ Sample-02.png);
     background-repeat: no-repeat;
     background-size: 1580px;
 }
@@ -14,7 +18,7 @@ html {
     display: flex;
     gap: 40px;
     justify-content: end;
-    padding: 40px;
+    padding: 20px 40px 0px 40px;
 
 }
 
@@ -34,7 +38,7 @@ html {
 
 .hero-image {
     width: 600px;
-    padding: 0 40px 0 40px;
+    padding: 0 40px 0 150px;
 }
 
 h1 {
@@ -54,8 +58,35 @@ h1 {
     color: white;
     display: inline-block;
   padding: 20px 40px 20px 40px;
-  margin: 80px;
+  margin: 20px 40px 20px 120px;
 background-color: rgb(101, 13, 28);
 color: white;
   text-decoration: none;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+    background-color:#404041;
+    color: white;
+    display: flex;
+    gap: 40px;
+    justify-content: start;
+    padding: 5px;
+}
+
+.footer-link {
+display: flex;
+ font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: small;
+    background-color:#404041;
+    color: white;
+    text-decoration: none;
+    padding: 6px 20px;
+    border-radius: 10px 10px 10px 10px;
+    gap: 10px;
 }
