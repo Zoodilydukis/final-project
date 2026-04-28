@@ -66,25 +66,3 @@ border-radius: 10px 10px 10px 10px;
 .mission {
     width: 700px;
 }
-.footer {
-    background-color:#404041;
-    color: white;
-    display: flex;
-    gap: 40px;
-    justify-content: start;
-    padding: 5px;
-}
-
-.footer-link {
-display: flex;
- font-family: "poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: small;
-    background-color:#404041;
-    color: white;
-    text-decoration: none;
-    padding: 6px 20px;
-    border-radius: 10px 10px 10px 10px;
-    gap: 10px;
-}

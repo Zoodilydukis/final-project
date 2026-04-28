@@ -1,27 +1,53 @@
-body, h1, p {
+body, h1, p, ul, li {
     margin: 0;
     padding: 0;
+}
+
+ul {
+    list-style: none;
 }
 
 a {
     color: white;
 }
 
+h1 {
+    font-family: "custard", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color:white;
+    padding: 0 0 0 80px
+}
+h2{
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+    padding: 0 0 0 80px
+}
+
+h1 {
+    font-family: "custard", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color:white;
+    padding: 0 0 0 80px
+}
 html {
      background-image: url(Website\ Sample-02.png);
     background-repeat: no-repeat;
     background-size: 1580px;
 }
-
 .nav {
     list-style-type: none;
     display: flex;
     gap: 40px;
     justify-content: end;
     padding: 20px 40px 0px 40px;
-
 }
-
 .nav-link {
     font-family: "poppins", sans-serif;
     font-weight: 600;
@@ -34,20 +60,9 @@ html {
     padding: 6px 10px;
     border-radius: 10px 10px 10px 10px;
 }
-
-
 .hero-image {
     width: 600px;
     padding: 0 40px 0 150px;
-}
-
-h1 {
-    font-family: "custard", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    color: white;
-    padding: 0 0 0 80px
 }
 
 .cta {
@@ -65,16 +80,17 @@ color: white;
 }
 
 .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
     background-color:#404041;
     color: white;
     display: flex;
     gap: 40px;
-    justify-content: start;
-    padding: 5px;
+    justify-content: space-between;
+    padding: 0;
+
 }
 
 .footer-link {
@@ -89,4 +105,9 @@ display: flex;
     padding: 6px 20px;
     border-radius: 10px 10px 10px 10px;
     gap: 10px;
+}
+
+.footer-img {
+    width: 45px;
+    margin: 10px 15px 0 0;
 }
