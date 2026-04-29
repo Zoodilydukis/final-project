@@ -2,9 +2,21 @@ html {
     background-image: url(Group\ 2.png);
     background-repeat: no-repeat;
     background-size: 1780px;
+    background-attachment: fixed;
 }
 
+.prod-img {
+    width: 500px;
 
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+}
 
 .nav {
     background-color:#29A3A6;
@@ -32,8 +44,25 @@ padding: 6px 10px;
 border-radius: 10px 10px 10px 10px;
 }
 
+.buy {
+    margin: 0 10px 100px;
+    padding: 10px;
+}
 
+.two-column-layout {
+    display: flex;
+}
 
-.main {
-    display: flexbox;
+.column {
+    flex: 0 0 50%;
+}
+.main-product {
+    width: 500px;
+    margin: 20px 100px 100px 80px;
+}
+
+.description {
+    display: flex;
+    justify-content: top;
+
 }

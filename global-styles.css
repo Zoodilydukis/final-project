@@ -20,12 +20,12 @@ h1 {
     padding: 0 0 0 80px
 }
 h2{
-    font-family: "poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
+    font-family: "custard", sans-serif;
+
+    font-style: x-large;
     font-size: 30px;
     color: white;
-    padding: 0 0 0 80px
+    /* padding: 0 0 0 80px */
 }
 
 p{
@@ -37,4 +37,8 @@ p{
     width: 800px;
     height: 180px;
     margin: 0 0 0 80px;
+}
+
+main {
+    padding-bottom: 50px;
 }
