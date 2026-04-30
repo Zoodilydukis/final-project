@@ -23,9 +23,16 @@ h2{
     font-family: "custard", sans-serif;
 
     font-style: x-large;
-    font-size: 30px;
+    font-size: 50px;
     color: white;
     /* padding: 0 0 0 80px */
+}
+
+h3{
+     font-family: "custard", sans-serif;
+    font-style: large;
+    font-size: 35px;
+    color: white;
 }
 
 p{
